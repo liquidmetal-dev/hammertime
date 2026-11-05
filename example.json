@@ -7,7 +7,7 @@
     "vcpu": 2,
     "memory_in_mb": 2048,
     "kernel": {
-      "image": "ghcr.io/weaveworks-liquidmetal/kernel-bin:5.10.77",
+      "image": "ghcr.io/liquidmetal-dev/kernel-bin:5.10.77",
       "filename": "boot/vmlinux",
       "add_network_config": true
     },
@@ -15,7 +15,7 @@
       "id": "root",
       "is_read_only": false,
       "source": {
-        "container_source": "ghcr.io/weaveworks-liquidmetal/capmvm-k8s-os:1.23.5"
+        "container_source": "ghcr.io/liquidmetal-dev/capmvm-k8s-os:1.23.5"
       }
     },
     "additional_volumes": [
@@ -23,7 +23,7 @@
         "id": "modules",
         "is_read_only": false,
         "source": {
-          "container_source": "ghcr.io/weaveworks-liquidmetal/kernel-modules:5.10.77"
+          "container_source": "ghcr.io/liquidmetal-dev/kernel-modules:5.10.77"
         },
         "mount_point": "/lib/modules/5.10.77"
       }

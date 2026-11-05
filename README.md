@@ -1,6 +1,6 @@
 ## Hammertime
 
-A very basic CLI tool for interacting with [flintlock](https://github.com/weaveworks/flintlock) servers.
+A very basic CLI tool for interacting with [flintlock](https://github.com/liquidmetal-dev/flintlock) servers.
 
 (Those of you who know your archaic gun mechanisms will understand the name and no doubt
 find it hilarious.) (You are welcome.)
@@ -28,7 +28,7 @@ and run: mdtoc -inplace README.md
 
 ### Flintlock?
 
-[Flintlock](https://github.com/weaveworks/flintlock) is a service to manage MicroVMs
+[Flintlock](https://github.com/liquidmetal-dev/flintlock) is a service to manage MicroVMs
 on bare-metal.
 
 MicroVMs are, as they sound, smaller VMs. Unlike regular VMs, which generally must
